@@ -125,3 +125,35 @@ while (menu != 4) {
 
   }
 }
+
+// console.log("------------5번 문제----------------");
+    // function emailCheck(check) {
+    //   //함수로 만들어보자
+    //   let pos = check.split("@");
+    //   console.log(pos); // 확인용 코드
+    //   // console.log(pos[0].slice(0,2))-> 확인용 코드 su 추출용
+    //   let mask = "";
+    //   for (let i = 0; i < (pos[0].length) - 2; i++) {
+    //     mask += "*";
+
+    //   } // for문은 sutdy.todair의 길이만큼만 돌음 
+    //   //  우리가 출력할건 to****@naver.com 그럼 시작 조건을  바꾸면 될거같음
+    //   console.log(pos[0].slice(0, 2) + mask + '@' + pos[1])
+
+
+    //   //
+    //   // pos[0] 여기에 study.todair가 저장되어있고, 이걸 가리면 됨
+
+
+    // } emailCheck("sutdy.todair@gmail.com");
+
+
+    //  이메일을 @기준으로 1/2 내서 앞에 부분만 마스킹
+    //  let pos = pos.split("@") -> 이렇게 하면 될거같음
+
+
+    // emailCheck("sutdy.todair@gmail.com");
+
+
+
+
