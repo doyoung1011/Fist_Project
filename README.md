@@ -225,3 +225,18 @@ login.addEventListener('click', function () {
 
 
 
+---------------------------------------------------------------------------------------------------------
+
+
+function log(message) {
+    const div = document.createElement('div')
+    div.classList.add('log')
+    div.innerHTML = message
+
+    const view = document.querySelector('#view')
+    view.prepend(div)
+}
+// 콘솔창 대신해서 밑에다가 쓰면 좋을 함수.
+
+
+
